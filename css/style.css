@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* responsive section tablet */
+ /* responsive section tablet 768px */
 
  @media screen and (max-width: 768px) {
 
@@ -137,3 +137,25 @@ img {
     }
 
  }
+
+ /* responsive section mobile 480px */
+
+@media screen and (max-width: 480px) {
+    
+    .conteiner {
+        width: 480px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .steps {
+        margin: 0 auto;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin: 0 auto;
+    }
+}
